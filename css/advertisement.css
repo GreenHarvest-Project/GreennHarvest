@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.advertisement-container {
+    width: 100%;
+    height: 472px;
+    padding: 80px 20px;
+    text-transform: uppercase;
+    background-color: #FBFBFB;
+}
+
+.advertisement-text1 {
+    background-color: #576f35;
+    border-radius: 12px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    display: block;
+}
+
+.advertisement-text2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+/* Tablet cihazlar için (768px ve üstü) */
+@media (min-width: 768px) {
+    .advertisement-container {
+        width: 100%;
+        height: 488px;
+        padding: 100px 32px;
+    }
+
+    .advertisement-text1 {
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .advertisement-text2 {
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 64px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
+
+/* Desktop cihazlar için (1024px ve üstü) */
+@media (min-width: 1024px) {
+    .advertisement-container {
+        width: 100%;
+        height: 428px;
+        padding: 100px;
+    }
+
+    .advertisement-text1 {
+        display: inline-block;
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+
+    .advertisement-text2 {
+        display: inline-block;
+        font-size: 76px;
+        font-weight: 600;
+        line-height: 76px;
+        letter-spacing: -0.015em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+    }
+}
