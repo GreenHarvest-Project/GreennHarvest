@@ -3,267 +3,96 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter Tight", sans-serif;
-  list-style: none;
 }
 
-.hidden {
-  display: none;
-}
-
-.section-howitworks {
+.advertisement-container {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.container-how {
-  margin: 0;
-  padding: 40px 20px;
-  width: 50%;
-  height: 760px;
-  background-color: #7a3145;
-}
-
-.made-image {
-  width: 440px;
-  height: 560px;
-  object-fit: cover;
-  border-radius: 30px;
-  margin-top: 100px;
-  margin-left: 100px;
-}
-.second-container-first-text {
-  margin-top: 80px;
-  margin-left: 150px;
-}
-.second-container {
-  width: 50%;
-  height: 760px;
-  background-color: #576f35;
-  margin: 0;
+  height: 472px;
   padding: 80px 20px;
+  text-transform: uppercase;
+  background-color: #fbfbfb;
 }
 
-.second-container-title {
-  width: 335px;
-  height: 112px;
-  color: #fbfbfb;
-  text-transform: uppercase;
+.advertisement-text1 {
+  background-color: #576f35;
+  border-radius: 12px;
+  font-size: 48px;
   font-weight: 600;
-  font-size: 28px;
-  line-height: 28px;
+  line-height: 52px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: white;
+  display: block;
+}
+
+.advertisement-text2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
   letter-spacing: -0.015em;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
 
-.second-container-title span {
-  color: #d4bfc4;
-}
-
-.second-container-p {
-  width: 335px;
-  margin-top: 20px;
-  color: #fbfbfb;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.steps {
-  width: 335px;
-  height: 282px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 60px;
-  margin-left: 150px;
-}
-
-.step-number {
-  padding: 12px 24px;
-  width: 100%;
-  background-color: #fbfbfb;
-  display: flex;
-  gap: 24px;
-  border-radius: 15px;
-  justify-content: center;
-  align-items: center;
-}
-
-.step-number p {
-  font-family: Inter Tight;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #858585;
-}
-
-.step-number p span {
-  color: black;
-  font-weight: 700;
-}
-
-/* TABLET */
-
-@media (max-width: 768px) {
-  .section-howitworks {
-    height: 1548px;
-    display: flex;
-    flex-direction: column;
-  }
-  .container-how {
+/* Tablet cihazlar için (768px ve üstü) */
+@media (min-width: 768px) {
+  .advertisement-container {
     width: 100%;
-    height: 840px;
-    padding: 100px 64px;
+    height: 488px;
+    padding: 100px 32px;
   }
-  .made-image {
-    border-radius: 30px;
-    width: 640px;
-    height: 640px;
-    object-fit: cover;
-  }
-  .second-container {
-    width: 100%;
-    height: 708px;
-    padding: 100px 164px;
-  }
-  .second-container-first-text {
-    width: 440px;
-  }
-  .second-container-title {
-    width: 440px;
-    height: 112px;
-    font-size: 32px;
+
+  .advertisement-text1 {
+    font-size: 64px;
     font-weight: 600;
-    line-height: 32px;
-    letter-spacing: -0.015em;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .second-container-p {
-    width: 440px;
-    margin-top: 24px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .steps {
-    width: 440px;
-    height: 276px;
-    margin-top: 52px;
-  }
-  .step-number {
-    padding: 12px 16px;
-    width: 100%;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-  }
-  .step-number p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-  }
-  .step-number p span {
-    font-weight: 700;
-  }
-}
-
-/* MOBİLE */
-@media (max-width: 320px) {
-  .section-howitworks {
-    height: 1208px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container-how {
-    width: 100%;
-    height: 532px;
-    padding: 40px 20px;
-  }
-
-  .made-image {
-    border-radius: 30px;
-    width: 335px;
-    height: 452px;
-    object-fit: cover;
-  }
-
-  .second-container {
-    width: 375px;
-    height: 676px;
-  }
-
-  .second-container-first-text {
-    width: 335px;
-    padding: 80px 20px;
-    margin: 0;
-    padding-bottom: 0;
-  }
-
-  .second-container-title {
-    width: 335px;
-    height: 112px;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 28px;
+    line-height: 64px;
     letter-spacing: -0.015em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
 
-  .second-container-p {
-    width: 335px;
-    margin-top: 60px;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
+  .advertisement-text2 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+/* Desktop cihazlar için (1024px ve üstü) */
+@media (min-width: 1024px) {
+  .advertisement-container {
+    width: 100%;
+    height: 428px;
+    padding: 100px;
+  }
+
+  .advertisement-text1 {
+    display: inline-block;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -0.015em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
 
-  .steps {
-    width: 395px;
-    height: 84px;
-    margin-top: 40px;
-    margin-left: 20px;
-  }
-
-  .step-number {
-    padding: 12px 16px;
-    width: 335px;
-    height: 84px;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-  }
-
-  .step-number p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
+  .advertisement-text2 {
+    display: inline-block;
+    font-size: 76px;
+    font-weight: 600;
+    line-height: 76px;
+    letter-spacing: -0.015em;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-  }
-
-  .step-number p span {
-    font-weight: 700;
   }
 }
