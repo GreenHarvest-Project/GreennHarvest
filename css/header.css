@@ -177,8 +177,7 @@ html {
     height: Hug (44px) px;
     gap: 8px;
     opacity: 0px;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
     display: flex;
   }
   .header-border {
@@ -246,9 +245,7 @@ html {
     line-height: 20px;
     letter-spacing: -1.5%;
     color: #fbfbfb;
-    margin-left: 35px;
     cursor: pointer;
-    margin-top: -25px;
     right: 32px;
   }
 }
