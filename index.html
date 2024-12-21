@@ -10,119 +10,81 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" href="css/header.css" />
+
     <title>Document</title>
   </head>
   <body>
-    <section class="section-habibe">
-      <!-- Habibe'nin bölümü header -->
-    </section>
-    <section class="section-orkun">
-      <!-- Orkun'un Bölümü-->
-    </section>
-    <section class="section-aysun">
-      <!-- Aysun'un Bölümü -->
-    </section>
-    <section class="section-kadir">
-      <!-- Kadir'in Bölümü -->
-    </section>
-    <section class="section-emre">
-      <!-- Emre'nin Bölümü -->
-      <!-- Your Order -->
-      <div class="your_order-container">
-        <div class="your_order-top">
-          <h2 class="your_order-main-title">
-            Fresh <span class="harvest-span">Harvest</span> Box has got you
-            covered
-          </h2>
-          <p class="your_order-title-text">
-            Our boxes are packed with delicious, nutritious vegetables, perfect
-            for anyone looking to eat healthier or support local farmers. Order
-            your box today and start enjoying the best that nature has to offer!
-          </p>
-        </div>
-
-        <div class="your_order-content">
-          <div class="your_order-left">
-            <form action="">
-              <div class="your_order-form-border">
-                <h3 class="your_order-form-title">
-                  Ordering <span class="from-us-span">from us</span> is quick
-                  and easy! Fill out
-                  <span class="the-form-span">the form</span>
-                  below and we will contact you !
-                </h3>
-                <div class="your_order-form-boxes">
-                  <div>
-                    <label for="name"></label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      placeholder="Full Name"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label for="email"></label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label for="sport">
-                      <textarea
-                        name="sport"
-                        id="sport"
-                        rows="4"
-                        placeholder="Comment"
-                      ></textarea>
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="your_order-form-btn">SEND</button>
-              </div>
-            </form>
-          </div>
-          <div class="your_order-right">
-            <div class="your_order-img">
-              <img src="" alt="" />
-            </div>
-            <div class="your_order-follow-us">
-              <p>Follow us on our social networks:</p>
-              <ul class="your_order-social-links">
-                <li>
-                  <a
-                    href="https://www.instagram.com/goit.turkiye/"
-                    target="_blank"
-                    >Instagram</a
-                  >
-                </li>
-                <li>/</li>
-                <li>
-                  <a
-                    href="https://www.facebook.com/people/GOIT-T%C3%BCrkiye/61558036560161/"
-                    target="_blank"
-                    >Facebook</a
-                  >
-                </li>
-                <li>/</li>
-                <li>
-                  <a href="https://m.youtube.com/@GoITTurkey" target="_blank"
-                    >YouTube</a
-                  >
-                </li>
-              </ul>
-            </div>
+    <header class="header">
+      <div class="header-nav container">
+        <div class="header-menu">
+          <div class="menu-btn" style="margin-bottom: 10px">
+            <ul class="header-menu-list">
+              <li class="header-border">
+                <img
+                  class="three-line"
+                  src="./files/logo(1).svg"
+                  alt="menuicon"
+                />
+              </li>
+              <li class="header-border" style="margin-left: 200px">
+                <a class="menu-how" href="#howitworks">How It Works</a>
+              </li>
+              <li class="header-border">
+                <a class="menu-v" href="#vegetables">Vegetables</a>
+              </li>
+              <li class="header-border">
+                <a class="menu-rev" href="#reviews">Reviews</a>
+              </li>
+              <li class="header-border">
+                <button class="header-shop-btn" type="button">SHOP NOW</button>
+              </li>
+            </ul>
           </div>
         </div>
+        <link rel="stylesheet" href="css/howitworks.css" />
       </div>
-    </section>
-    <section class="section-mert">
-      <!-- Mert'in Bölümü -->
-    </section>
+      <link rel="stylesheet" href="./css/hero.css" />
+      <link rel="stylesheet" href="css/advertisement.css" />
+      <link rel="stylesheet" href="css/vegatables.css" />
+      <link rel="stylesheet" href="css/yourorder.css" />
+      <link rel="stylesheet" href="css/footer.css" />
+
+      <iframe
+        src="hero.html"
+        width="100%"
+        height="1000"
+        frameborder="0"
+      ></iframe>
+    </header>
+    <iframe
+      id="howitworks"
+      src="howitworks.html"
+      width="100%"
+      height="1000"
+      frameborder="0"
+    ></iframe>
+    <iframe
+      src="advertisement.html"
+      width="100%"
+      height="1000"
+      frameborder="0"
+    ></iframe>
+    <iframe
+      id="vegetables"
+      src="vegatables.html"
+      width="100%"
+      height="1000"
+      frameborder="0"
+    ></iframe>
+    <iframe
+      id="reviews"
+      src="yourorder.html"
+      width="100%"
+      height="1000"
+      frameborder="0"
+    ></iframe>
   </body>
+  <iframe src="footer.html" width="100%" height="1000" frameborder="0"></iframe>
 </html>
