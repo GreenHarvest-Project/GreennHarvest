@@ -41,7 +41,7 @@
 @media (min-width: 768px) {
   .advertisement-container {
     width: 100%;
-    height: 488px;
+    height: 408px;
     padding: 100px 32px;
   }
 
@@ -68,10 +68,20 @@
 
 /* Desktop cihazlar için (1024px ve üstü) */
 @media (min-width: 1024px) {
+  #advertisement {
+    width: Hug (1280px) px;
+    height: Hug (500px) px;
+    top: 1556px;
+    padding: 0px;
+    gap: 10px;
+    opacity: 0px;
+    margin-top: 0;
+  }
   .advertisement-container {
     width: 100%;
     height: 428px;
     padding: 100px;
+    margin-top: 0;
   }
 
   .advertisement-text1 {

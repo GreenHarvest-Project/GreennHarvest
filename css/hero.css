@@ -1,6 +1,7 @@
 .hero-tittle .p-hero-tittle {
   color: white;
 }
+
 .green-hero {
   display: flex;
   width: 100%;
@@ -16,10 +17,13 @@
   left: 0;
 }
 .hero-img {
-  width: 50%;
-  height: 100%;
+  width: 950px;
+  height: 796px;
+  gap: 0px;
+  opacity: 0px;
   position: absolute;
-  right: 0;
+  margin-left: 600px;
+  margin-top: 110px;
 }
 .hero-tittle {
   font-family: "Inter Tight", sans-serif;
